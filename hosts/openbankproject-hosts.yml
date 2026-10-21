@@ -1,0 +1,122 @@
+generated: '2026-10-21'
+method: derived
+source: the pre-flight dossier, apis.yml pointers, spec servers, well-known, vendors -- nothing fetched here
+generator: derive-hosts.py
+summary:
+  hosts: 9
+  own: 8
+  other_domain: 0
+  platform: 1
+  roles:
+  - api
+  - docs
+  - identity
+  - other
+  - source
+  - website
+hosts:
+- host: api.openbankproject.com
+  found_by:
+  - contract-discovery
+  types: []
+  serves: []
+  registrable_domain: openbankproject.com
+  role: api
+  relation: own
+- host: apiexplorer-ii-sandbox.openbankproject.com
+  found_by:
+  - probed
+  - site-links
+  - contract-discovery
+  - well-known
+  types: []
+  serves: []
+  registrable_domain: openbankproject.com
+  role: other
+  relation: own
+- host: apisandbox-portal.openbankproject.com
+  found_by:
+  - pointer
+  - apis[]
+  - probed
+  - site-links
+  - contract-discovery
+  - well-known
+  types:
+  - APIReference
+  serves:
+  - docs
+  registrable_domain: openbankproject.com
+  role: docs
+  relation: own
+- host: github.com
+  found_by:
+  - pointer
+  types:
+  - GitHubOrganization
+  serves: []
+  registrable_domain: github.com
+  role: source
+  relation: platform
+- host: openbankproject.com
+  found_by:
+  - probed
+  - contract-discovery
+  - well-known
+  types: []
+  serves: []
+  registrable_domain: openbankproject.com
+  role: other
+  relation: own
+- host: test-explorer-ii.openbankproject.com
+  found_by:
+  - probed
+  - site-links
+  - contract-discovery
+  - well-known
+  types: []
+  serves: []
+  registrable_domain: openbankproject.com
+  role: other
+  relation: own
+- host: test-manager-ii.openbankproject.com
+  found_by:
+  - probed
+  - site-links
+  - well-known
+  types: []
+  serves: []
+  registrable_domain: openbankproject.com
+  role: other
+  relation: own
+- host: test-portal.openbankproject.com
+  found_by:
+  - pointer
+  - probed
+  - site-links
+  - well-known
+  types:
+  - Login
+  serves: []
+  registrable_domain: openbankproject.com
+  role: identity
+  relation: own
+- host: www.openbankproject.com
+  found_by:
+  - pointer
+  - probed
+  - site-links
+  - docs-index
+  - well-known
+  types:
+  - Sandbox
+  - PrivacyPolicy
+  - Website
+  - Documentation
+  - Support
+  - Blog
+  serves:
+  - docs
+  registrable_domain: openbankproject.com
+  role: website
+  relation: own

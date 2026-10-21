@@ -1,0 +1,14 @@
+generated: '2026-10-21'
+method: searched
+generator: extract-docs-artifacts.py (local)
+source: https://www.openbankproject.com/case-study/berlin-group-compliance-open-source-maib-moldova/
+sources:
+- https://www.openbankproject.com/case-study/berlin-group-compliance-open-source-maib-moldova/
+- https://www.openbankproject.com/tag/compliance/
+- https://www.openbankproject.com/privacy-policy/
+standards:
+- id: csa-star
+  conforms: true
+  evidence: 'Compliance with the Berlin Group Standard: Despite the NBM’s ongoing modifications to the standard, TESOBE helped MAIB achieve AISP
+    (Account Information Service Provider) compliance by adapting OBP Berlin Group APIs.'
+docs: https://www.openbankproject.com/case-study/berlin-group-compliance-open-source-maib-moldova/

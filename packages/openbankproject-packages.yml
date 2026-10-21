@@ -1,0 +1,11 @@
+generated: '2026-10-21'
+method: searched
+source: https://registry.npmjs.org/-/v1/search?text=openbankproject&size=5
+packages:
+  - name: openbankproject-client
+    registry: npm
+    url: https://www.npmjs.com/package/openbankproject-client
+    official: true
+    version: 1.0.1
+    published: 2026-10-20
+    note: "Node.js client for the OpenBankProject API"

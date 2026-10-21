@@ -1,0 +1,18 @@
+generated: '2026-10-21'
+method: none
+source:
+- https://zapier.com/apps/openbankproject/integrations
+- https://zapier.com/apps/open-bank-project/integrations
+- https://n8n.io/integrations/openbankproject/
+- https://composio.dev/toolkits/openbankproject
+- https://monid.ai/tools/openbankproject
+checked:
+- https://composio.dev/toolkits/openbankproject
+- https://monid.ai/tools/openbankproject
+- https://n8n.io/integrations/openbankproject/
+- https://zapier.com/apps/open-bank-project/integrations
+- https://zapier.com/apps/openbankproject/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []

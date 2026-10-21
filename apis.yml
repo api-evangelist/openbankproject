@@ -1,23 +1,80 @@
 aid: openbankproject
+
 name: Open Bank Project
-description: 'Open Bank Project is a company surfaced via the API Evangelist harvest backlog (source:
-  g2-catalog) and added to the network as a stub for full-pipeline profiling.'
+
+description: Open Bank Project (OBP) provides an open-source API platform enabling banks and fintechs to build, manage, and secure open banking
+  APIs. It offers a sandbox, compliance tools, and developer resources to accelerate integration with PSD2 and other standards, fostering innovation
+  across financial services.
+
 url: https://raw.githubusercontent.com/api-evangelist/openbankproject/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:g2-catalog
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-10-21 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-10-21'
+
 modified: '2026-10-21'
+
 tags:
 - Company
-apis: []
+- OpenBanking
+- API
+- Fintech
+- Banking
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+
 common:
+- type: Conformance
+  url: conformance/openbankproject-conformance.yml
+- type: WellKnown
+  url: well-known/openbankproject-well-known.yml
+- type: Hosts
+  url: hosts/openbankproject-hosts.yml
+- type: SDKs
+  url: packages/openbankproject-packages.yml
+- type: Packages
+  url: packages/openbankproject-packages.yml
+- type: Sandbox
+  url: https://www.openbankproject.com/solutions/sandbox/
+- type: PrivacyPolicy
+  url: https://www.openbankproject.com/privacy-policy/
+- type: Login
+  url: https://test-portal.openbankproject.com/login
+- type: DomainSecurity
+  url: security/openbankproject-domain-security.yml
 - type: Website
-  url: https://openbankproject.com/
+  url: https://www.openbankproject.com/
+- type: Documentation
+  url: https://www.openbankproject.com/getting-started
+- type: APIReference
+  url: https://apisandbox-portal.openbankproject.com/
+- type: Support
+  url: https://www.openbankproject.com/contact
+- type: Blog
+  url: https://www.openbankproject.com/blog/
+- type: GitHubOrganization
+  url: https://github.com/OpenBankProject
+
+apis:
+- name: Open Bank Project API
+  description: API platform for open banking, providing sandbox and compliance tools.
+  humanURL: https://apisandbox-portal.openbankproject.com/
+  baseURL: null
+  aid: openbankproject:open-bank-project-api
+x-enrichment:
+  date: '2026-10-21'
+  status: enriched
+  artifacts_added: 14
+  pass: modular-v1
+  engine: identity=local,contract=local,surfaces=local,docs=local,regulatory=local

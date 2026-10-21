@@ -1,0 +1,22 @@
+generated: '2026-10-21'
+method: searched
+source: https://www.openbankproject.com/privacy-policy/
+signals:
+  - name: data_subject_request
+    evidence:
+      source: https://www.openbankproject.com/privacy-policy/
+      http_status: 200
+      fetched: '2026-10-21'
+      quote: "You own the content and data you provide to us. It’s yours, not ours, and you are entitled to access it, update it and ask us to delete it any time."
+  - name: data_residency
+    evidence:
+      source: https://www.openbankproject.com/privacy-policy/
+      http_status: 200
+      fetched: '2026-10-21'
+      quote: "Data Sovereignty. You own the content and data you provide to us. It’s yours, not ours, and you are entitled to access it, update it and ask us to delete it any time."
+  - name: data_retention
+    evidence:
+      source: https://www.openbankproject.com/privacy-policy/
+      http_status: 200
+      fetched: '2026-10-21'
+      quote: "We do not store your data longer than necessary and we make sure it’s easy for you request a copy or to request that it be deleted."
